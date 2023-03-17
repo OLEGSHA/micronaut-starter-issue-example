@@ -1,0 +1,124 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /tmp/f/demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- micronaut-maven-plugin:3.5.2:start-testresources-service (default-start-testresources-service) @ demo ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ demo ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.DemoTest
+11:57:53.315 [main] INFO  i.m.context.env.DefaultEnvironment - Established active environments: [test]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.044 s - in com.example.DemoTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- micronaut-maven-plugin:3.5.2:aot-analysis (default-aot-analysis) @ demo ---
+[INFO] 
+[INFO] --- micronaut-maven-plugin:3.5.2:graalvm-resources (default-graalvm-resources) @ demo ---
+[INFO] Generating /tmp/f/demo/target/classes/META-INF/native-image/com.example/demo/resource-config.json
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ demo ---
+[INFO] Building jar: /tmp/f/demo/target/demo-0.1.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.2.4:shade (default-shade) @ demo ---
+[INFO] Including io.micronaut:micronaut-inject:jar:3.8.7 in the shaded jar.
+[INFO] Including org.slf4j:slf4j-api:jar:1.7.36 in the shaded jar.
+[INFO] Including javax.annotation:javax.annotation-api:jar:1.3.2 in the shaded jar.
+[INFO] Including jakarta.inject:jakarta.inject-api:jar:2.0.1 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-core:jar:3.8.7 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:2.0 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-validation:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-core-reactive:jar:3.8.7 in the shaded jar.
+[INFO] Including org.reactivestreams:reactive-streams:jar:1.0.4 in the shaded jar.
+[INFO] Including javax.validation:validation-api:jar:2.0.1.Final in the shaded jar.
+[INFO] Including io.projectreactor:reactor-core:jar:3.5.0 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-http-client:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-runtime:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-http:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-aop:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-context:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-http-client-core:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-websocket:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-http-netty:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-buffer-netty:jar:3.8.7 in the shaded jar.
+[INFO] Including io.netty:netty-codec-http2:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-handler:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-resolver:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-transport-native-unix-common:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-handler-proxy:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-common:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-buffer:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-transport:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-codec:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.netty:netty-codec-socks:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.micronaut:micronaut-http-server-netty:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-http-server:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-router:jar:3.8.7 in the shaded jar.
+[INFO] Including io.netty:netty-codec-http:jar:4.1.87.Final in the shaded jar.
+[INFO] Including io.micronaut:micronaut-jackson-databind:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-jackson-core:jar:3.8.7 in the shaded jar.
+[INFO] Including io.micronaut:micronaut-json-core:jar:3.8.7 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.14.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.14.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.14.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.14.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.14.0 in the shaded jar.
+[INFO] Including jakarta.annotation:jakarta.annotation-api:jar:2.1.1 in the shaded jar.
+[INFO] Including ch.qos.logback:logback-classic:jar:1.2.11 in the shaded jar.
+[INFO] Including ch.qos.logback:logback-core:jar:1.2.11 in the shaded jar.
+[WARNING] demo-0.1.jar, jackson-annotations-2.14.0.jar, jackson-core-2.14.0.jar, jackson-databind-2.14.1.jar, jackson-datatype-jdk8-2.14.0.jar, jackson-datatype-jsr310-2.14.0.jar, jakarta.annotation-api-2.1.1.jar, jakarta.inject-api-2.0.1.jar, javax.annotation-api-1.3.2.jar, logback-classic-1.2.11.jar, logback-core-1.2.11.jar, micronaut-aop-3.8.7.jar, micronaut-buffer-netty-3.8.7.jar, micronaut-context-3.8.7.jar, micronaut-core-3.8.7.jar, micronaut-core-reactive-3.8.7.jar, micronaut-http-3.8.7.jar, micronaut-http-client-3.8.7.jar, micronaut-http-client-core-3.8.7.jar, micronaut-http-netty-3.8.7.jar, micronaut-http-server-3.8.7.jar, micronaut-http-server-netty-3.8.7.jar, micronaut-inject-3.8.7.jar, micronaut-jackson-core-3.8.7.jar, micronaut-jackson-databind-3.8.7.jar, micronaut-json-core-3.8.7.jar, micronaut-router-3.8.7.jar, micronaut-runtime-3.8.7.jar, micronaut-validation-3.8.7.jar, micronaut-websocket-3.8.7.jar, netty-buffer-4.1.87.Final.jar, netty-codec-4.1.87.Final.jar, netty-codec-http-4.1.87.Final.jar, netty-codec-http2-4.1.87.Final.jar, netty-codec-socks-4.1.87.Final.jar, netty-common-4.1.87.Final.jar, netty-handler-4.1.87.Final.jar, netty-handler-proxy-4.1.87.Final.jar, netty-resolver-4.1.87.Final.jar, netty-transport-4.1.87.Final.jar, netty-transport-native-unix-common-4.1.87.Final.jar, reactive-streams-1.0.4.jar, reactor-core-3.5.0.jar, slf4j-api-1.7.36.jar, snakeyaml-2.0.jar, validation-api-2.0.1.Final.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] jakarta.inject-api-2.0.1.jar, javax.annotation-api-1.3.2.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/LICENSE.txt
+[WARNING] jakarta.annotation-api-2.1.1.jar, jakarta.inject-api-2.0.1.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/NOTICE.md
+[WARNING] jackson-annotations-2.14.0.jar, jackson-core-2.14.0.jar, jackson-databind-2.14.1.jar, jackson-datatype-jsr310-2.14.0.jar, micronaut-core-3.8.7.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/LICENSE
+[WARNING] jackson-core-2.14.0.jar, jackson-databind-2.14.1.jar, jackson-datatype-jdk8-2.14.0.jar, jackson-datatype-jsr310-2.14.0.jar, snakeyaml-2.0.jar define 1 overlapping classes: 
+[WARNING]   - META-INF.versions.9.module-info
+[WARNING] micronaut-buffer-netty-3.8.7.jar, micronaut-context-3.8.7.jar, micronaut-http-3.8.7.jar, micronaut-http-client-core-3.8.7.jar, micronaut-http-netty-3.8.7.jar, micronaut-http-server-3.8.7.jar, micronaut-http-server-netty-3.8.7.jar, micronaut-jackson-databind-3.8.7.jar, micronaut-router-3.8.7.jar, micronaut-runtime-3.8.7.jar, micronaut-validation-3.8.7.jar define 2 overlapping resources: 
+[WARNING]   - META-INF/config-properties.adoc
+[WARNING]   - META-INF/spring-configuration-metadata.json
+[WARNING] netty-buffer-4.1.87.Final.jar, netty-codec-4.1.87.Final.jar, netty-codec-http-4.1.87.Final.jar, netty-codec-http2-4.1.87.Final.jar, netty-codec-socks-4.1.87.Final.jar, netty-common-4.1.87.Final.jar, netty-handler-4.1.87.Final.jar, netty-handler-proxy-4.1.87.Final.jar, netty-resolver-4.1.87.Final.jar, netty-transport-4.1.87.Final.jar, netty-transport-native-unix-common-4.1.87.Final.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/io.netty.versions.properties
+[WARNING] jackson-core-2.14.0.jar, jackson-databind-2.14.1.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/NOTICE
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /tmp/f/demo/target/demo-0.1.jar with /tmp/f/demo/target/demo-0.1-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.224 s
+[INFO] Finished at: 2023-03-17T11:57:57+01:00
+[INFO] ------------------------------------------------------------------------
